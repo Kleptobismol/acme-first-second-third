@@ -1,0 +1,34 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#head  {
+    display: flex;
+    justify-content: center
+}
+#lists {
+    display: flex;
+    flex-direction: row;
+}
+div > div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 3%;
+    flex: 1;
+    border: 1px solid #FF6347;
+}
+#red {
+    background-color: #FF6347;
+}
+.user {
+    padding: 5%;
+    text-align: left;
+    background-color: white;
+    border: none;
+}
+button {
+    background-color: #D3D3D3;
+    border: none;
+    width: 100%;
+    height: 3rem;
+}
